@@ -126,7 +126,7 @@ module Subroutine
           clear_field_without_association(config.association_name)
         end
 
-        set_field_without_association(field_name, value, opts)
+        set_field_without_association(field_name, value, **opts)
       end
     end
 
